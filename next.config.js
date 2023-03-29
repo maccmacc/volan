@@ -2,9 +2,10 @@
 const nextConfig = {
     experimental: {
         appDir: true,
-        esmExternals: "loose",
+        esmExternals: 'loose',
     },
-    output: "standalone",
+    output: 'standalone',
 };
 
 module.exports = nextConfig;
+

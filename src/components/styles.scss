@@ -1,6 +1,5 @@
-@import '../app/styles/_color';
+@import '../styles/_color';
 .background {
-    color:$white-color;
     display: flex;
     width: 100%;
     justify-content: flex-end;
@@ -8,6 +7,7 @@
     height: 64px;
     flex-flow: nowrap;
     &__navigation-content {
+        color: $dark-blue-color;
         display: flex;
         padding-right: 30px;
         padding-left: 20px;
@@ -15,3 +15,4 @@
         align-items: center;
     }
 }
+
