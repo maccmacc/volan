@@ -1,11 +1,12 @@
 import Header from '@/components/header';
+import React from 'react';
 
-export default async function Page() {
-    return (
-        <>
-            <Header />
-            <div>hello mac</div>
-        </>
-    );
-}
+const Page = async ({ params: { locale } }: LocaleProps) => {
+  return (
+    <>
+      <div>hello mac</div>
+    </>
+  );
+};
 
+export default Page;

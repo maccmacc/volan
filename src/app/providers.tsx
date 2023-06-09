@@ -1,6 +1,6 @@
-"use-client";
+'use-client';
 
-const Providers = () => {
-    return <></>;
-};
+import React from 'react';
+
+const Providers = ({ children }: { children: React.ReactNode }) => <> {children}</>;
 export default Providers;
