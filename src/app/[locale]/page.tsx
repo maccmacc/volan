@@ -1,7 +1,6 @@
-import Header from '@/components/header';
 import React from 'react';
 
-const Page = async ({ params: { locale } }: LocaleProps) => {
+const Page = async () => {
   return (
     <>
       <div>hello mac</div>
