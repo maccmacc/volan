@@ -1,8 +1,11 @@
 {
-    "firstPageTranslation": "Welcome",
+    "firstPageTranslation": "Home",
     "aboutUsTranslation": "About us",
     "pricesTranslation": "Price",
     "carTypeTranslation": "Cars",
-    "applyTranslation": "Apply",
-    "contactTranslation": "Contact"
+    "educationTranslation": "Education",
+    "loginTranslation": "Login",
+    "contactTranslation": "Contact",
+
+    "whyChooseDrivingSchool": "Why choose a driving school"
 }

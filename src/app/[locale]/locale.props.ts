@@ -10,8 +10,9 @@
  * Note 2: The `locale` is optional because we also support navigating the app
  * without a locale in the URL.
  */
-interface LocaleProps {
+export interface LocaleProps {
   params: {
     locale?: string;
   };
+  children?: any;
 }

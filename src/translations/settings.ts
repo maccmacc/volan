@@ -1,7 +1,7 @@
 import { InitOptions } from 'i18next';
 
 export const FALLBACK_LOCALE = 'en';
-export const SUPPORTED_LANGUAGES = [FALLBACK_LOCALE, 'rs'];
+export const SUPPORTED_LANGUAGES = [FALLBACK_LOCALE, 'de'];
 export const DEFAULT_NAMESPACE = 'translation';
 
 /* eslint-disable @typescript-eslint/naming-convention */

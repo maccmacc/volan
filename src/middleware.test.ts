@@ -3,7 +3,7 @@ import { describe, it, expect } from 'vitest';
 
 const matcher = [pathToRegexp('/((?!api|_next/static|_next/image|assets|favicon.ico|sw.js).*)')];
 
-const ALLOWED_PATHS = ['/', '/en', '/en/about', '/rs/about', '/about'];
+const ALLOWED_PATHS = ['/', '/en', '/en/about', '/de/about', '/about'];
 const BLOCKED_PATHS = ['/_next/image', '_next/static'];
 
 describe('matcher', () => {
